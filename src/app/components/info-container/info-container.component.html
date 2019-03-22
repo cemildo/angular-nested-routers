@@ -1,0 +1,7 @@
+ 
+ <ul>
+   <li *ngFor="let item of data" (click)="item?.children && goTo(item.name)">
+     {{item.name}}
+    </li>
+ </ul>
+ <router-outlet></router-outlet> 
