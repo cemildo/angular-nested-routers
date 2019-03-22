@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    background: #efefef;
+    font-size: 18px;
+    ul{
+        li{
+            height: 30px;
+            cursor: pointer;
+            padding: 5px 5px;
+            list-style-type: none;
+        }
+        li:hover{
+            background: burlywood;
+            border-radius: 4px;
+        }
+    }
+
+    .active{
+        background: burlywood;
+        border-radius: 4px; 
+    }
+}

@@ -1,7 +1,13 @@
  
- <ul>
-   <li *ngFor="let item of data" (click)="item?.children && goTo(item.name)">
-     {{item.name}}
-    </li>
- </ul>
- <router-outlet></router-outlet> 
+ <div class="container">
+   <div>
+     <ul>
+       <li *ngFor="let item of data" [ngClass]="{'active': item.name === current}" (click)="item?.children && goTo(item.name)">
+         {{item.name}}
+        </li>
+     </ul>
+   </div>
+   <div>
+     <router-outlet></router-outlet> 
+   </div>
+ </div>

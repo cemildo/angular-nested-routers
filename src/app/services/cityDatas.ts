@@ -5,25 +5,25 @@ export const DATA: any = [
         {
           name: 'Brugg',
           children: [
-            { name: 'xabc', children: []},
-            { name: 'yabc', children: []},
-            { name: 'zabc', children: []},
+            { name: 'xabc'},
+            { name: 'yabc'},
+            { name: 'zabc'},
           ]
         },
         {
           name: 'Baden',
           children: [
-            { name: 'kabc', children: []},
-            { name: 'labc', children: []},
-            { name: 'mabc', children: []},
+            { name: 'kabc'},
+            { name: 'labc'},
+            { name: 'mabc'},
           ]
         },
         {
           name: 'Suhr',
           children: [
-            { name: 'qabc', children: []},
-            { name: 'dabc', children: []},
-            { name: 'fabc', children: []},
+            { name: 'qabc'},
+            { name: 'dabc'},
+            { name: 'fabc'},
           ]
         }
       ]
@@ -34,25 +34,54 @@ export const DATA: any = [
           {
             name: 'Volketswil',
             children: [
-              { name: 'xabc', children: []},
-              { name: 'yabc', children: []},
-              { name: 'zabc', children: []},
+              { name: 'xabc'},
+              { name: 'yabc'},
+              { name: 'zabc'},
             ]
           },
           {
             name: 'Seebach',
             children: [
-              { name: 'kabc', children: []},
-              { name: 'labc', children: []},
-              { name: 'mabc', children: []},
+              { name: 'kabc'},
+              { name: 'labc'},
+              { name: 'mabc'},
             ]
           },
           {
             name: 'Schwammendingen',
             children: [
-              { name: 'qabc', children: []},
-              { name: 'dabc', children: []},
-              { name: 'fabc', children: []},
+              { name: 'qabc'},
+              { name: 'dabc'},
+              { name: 'fabc'},
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Luzern',
+        children: [
+          {
+            name: 'Sarnen',
+            children: [
+              { name: 'xggabc'},
+              { name: 'ygggabc'},
+              { name: 'zggabc'},
+            ]
+          },
+          {
+            name: 'Malters',
+            children: [
+              { name: 'kdddabc'},
+              { name: 'lddabc'},
+              { name: 'mdddabc'},
+            ]
+          },
+          {
+            name: 'Ebikon',
+            children: [
+              { name: 'qjjjabc'},
+              { name: 'djjjabc'},
+              { name: 'fajjjbc'},
             ]
           }
         ]

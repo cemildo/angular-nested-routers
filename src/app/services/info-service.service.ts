@@ -51,7 +51,6 @@ export class InfoServiceService {
     const result =   this.data
     .find(item => item.name === kanton).children
     .find(item => item.name === city);
-    console.log('service', kanton, city, result);
     return result ? result.children : [];
   }
 }
